@@ -4,21 +4,14 @@ A simple utility to export your SJTU schedule in ICS format.
 
 ## Get Started
 
-### Linux/Mac
-
 ``` shell script
 $ pip install sjtu_schedule_exporter_cli
 $ sjtu-schedule-exporter-cli
 ```
 
-### Windows
-
-Download the latest prebuilt windows release from [releases](https://github.com/PhotonQuantum/sjtu-schedule-exporter-cli/releases),
-run the executable, and follow the instructions.
-
 ## Screenshot
 
-![screenshot](https://github.com/PhotonQuantum/sjtu-schedule-exporter-cli/screenshot.png)
+![screenshot](https://github.com/PhotonQuantum/sjtu-schedule-exporter-cli/blob/master/screenshot.png)
 
 ## Built With
 
@@ -26,7 +19,6 @@ run the executable, and follow the instructions.
 - [ics.py](https://github.com/C4ptainCrunch/ics.py) - A pythonic and easy iCalendar library.
 - [Blessed](https://github.com/jquast/blessed) - An easy, practical library for making terminal apps.
 - [Arrow](https://github.com/arrow-py/arrow) - Better dates & times for Python
-- [PyInstaller](https://www.pyinstaller.org/) - PyInstaller bundles a Python application and all its dependencies into a single package.
 
 ## License
 

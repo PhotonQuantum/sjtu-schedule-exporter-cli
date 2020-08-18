@@ -14,7 +14,7 @@ from .utils import get_available_filename, get_default_year_term
 def banner(term) -> str:
     lines = [f"SJTU Schedule Exporter CLI, Version {__version__}, powered by PySJTU {pysjtu.__version__}",
              f"If you find this tool useful, please star this repo. ",
-             f"You are welcomed to submit new issues and prs if you find any bug in this tool & PySJTU.",
+             f"You are welcomed to submit new issues and PRs if you find any bug in this tool or PySJTU.",
              "",
              f"This project: {term.blue('https://github.com/PhotonQuantum/sjtu-scheudule-exporter-cli')}",
              f"PySJTU: {term.blue('https://github.com/PhotonQuantum/pysjtu')}",
@@ -81,7 +81,7 @@ def main():
             print()
 
             if not sess_file:
-                save_session = bool_input(term, "Do you need to save your session?")
+                save_session = bool_input(term, "Do you want to save your session?")
                 if save_session:
                     with open("session", mode="w+b") as f:
                         sess.dump(f)

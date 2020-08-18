@@ -5,13 +5,13 @@ A simple utility to export your SJTU schedule in ICS format.
 ## Get Started
 
 ``` shell script
-$ pip install sjtu_schedule_exporter_cli
+$ pip install sjtu-schedule-exporter-cli
 $ sjtu-schedule-exporter-cli
 ```
 
 ## Screenshot
 
-![screenshot](https://github.com/PhotonQuantum/sjtu-schedule-exporter-cli/blob/master/screenshot.png)
+![screenshot](https://raw.githubusercontent.com/PhotonQuantum/sjtu-schedule-exporter-cli/master/screenshot.png)
 
 ## Built With
 

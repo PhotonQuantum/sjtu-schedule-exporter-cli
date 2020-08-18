@@ -1,4 +1,4 @@
 pysjtu
 blessed
 ics
-arrow
+arrow<0.15

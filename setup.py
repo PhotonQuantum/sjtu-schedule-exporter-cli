@@ -24,7 +24,7 @@ def find_version(*file_paths):
 
 
 setup(
-    name='sjtu-schedule-exporter-cli',
+    name='sjtu_schedule_exporter_cli',
     version=find_version("sjtu_schedule_exporter_cli", "__init__.py"),
     description='A simple utility to export your SJTU schedule in ICS format',
     author='LightQuantum',
@@ -46,7 +46,7 @@ setup(
         'pysjtu',
         'blessed',
         'ics',
-        'arrow'
+        'arrow<0.15'
     ],
     entry_points={
         'console_scripts': [

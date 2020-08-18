@@ -43,7 +43,7 @@ def search_in_sys_path(path: str) -> str:
 
 
 
-a = Entrypoint('sjtu-schedule-exporter-cli', 'console_scripts', 'sjtu-schedule-exporter-cli',
+a = Entrypoint('sjtu_schedule_exporter_cli', 'console_scripts', 'sjtu-schedule-exporter-cli',
                datas=[(search_in_sys_path("ics/grammar/contentline.ebnf"), "ics/grammar/")])
 
 pyz = PYZ(a.pure, a.zipped_data)

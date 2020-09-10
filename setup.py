@@ -35,6 +35,7 @@ setup(
     url='https://github.com/PhotonQuantum/sjtu-schedule-exporter-cli',
     classifiers=(
         'Operating System :: OS Independent',
+        'Programming Language :: Python :: 3.7',
         'Programming Language :: Python :: 3.8',
         'Programming Language :: Python :: 3 :: Only',
         'License :: OSI Approved :: GNU General Public License v3 (GPLv3)',

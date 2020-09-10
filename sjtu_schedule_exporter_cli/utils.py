@@ -45,8 +45,9 @@ def get_available_filename(filename: str) -> str:
         return filename
     fn, ext = os.path.splitext(filename)
     for num in count(1):
-        if not os.path.exists((_fn:=f"{fn}_{num}{ext}")):
-            return _fn
+        fn = f"{fn}_{num}{ext}"
+        if not os.path.exists(fn):
+            return fn
 
 
 def flatten(obj):

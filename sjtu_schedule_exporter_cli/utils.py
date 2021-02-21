@@ -30,7 +30,7 @@ def get_lesson_time(time: Union[int, List[int]]) -> Tuple[datetime.time, datetim
 def get_default_year_term() -> Tuple[int, int]:
     now = datetime.datetime.now()
     _year, month = now.year, now.month
-    year = _year - 1 if _year < 7 else _year
+    year = _year - 1 if month < 7 else _year
     if month < 6:
         term = 1
     elif month < 8:
